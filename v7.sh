@@ -59,7 +59,7 @@ sudo docker run --name mikrotik-chr-7 --restart unless-stopped \
                                                                                         -p 7021:51/tcp \
                                                                                             -p 7022:1812/udp \
                                                                                                 -p 7023:1813/udp \
-                                                                                                    mikrotik-chr-6
+                                                                                                    mikrotik-chr-7
 
                                                                                                     echo "MikroTik CHR telah berhasil diinstal dan dijalankan dalam Docker dengan nama mikrotik-chr-7."
 
