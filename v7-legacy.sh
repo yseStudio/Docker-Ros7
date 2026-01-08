@@ -6,7 +6,7 @@ sudo apt install -y wget unzip qemu-utils qemu-user-static
 
 # Download MikroTik CHR Image
 wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.6/chr-7.20.6-legacy-bios.img.zip
-
+rm -f chr-7.20.6-legacy-bios.img.zip*
 # Ekstrak Image
 unzip chr-7.20.6-legacy-bios.img.zip
 
@@ -63,4 +63,3 @@ sudo docker run --name mikrotik-chr-7 --restart unless-stopped \
 
                                                                                                     echo "MikroTik CHR telah berhasil diinstal dan dijalankan dalam Docker dengan nama mikrotik-chr-7."
 
-                                                                                                    
