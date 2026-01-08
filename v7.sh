@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y wget unzip qemu-utils qemu-user-static
 
 # Download MikroTik CHR Image
-wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.6/chr-7.20.6.img.zip
+wget https://github.com/elseif/MikroTikPatch/releases/download/7.20.6/chr-7.20.6-legacy-bios.img.zip
 
 # Ekstrak Image
 unzip chr-7.20.6.img.zip
